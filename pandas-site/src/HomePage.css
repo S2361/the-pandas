@@ -24,7 +24,11 @@ h2 {
     font-weight: 400;
     margin-top: 10px;
 }
-
+p{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Lexend Exa';
+}
 .team-list {
     list-style: none;
     padding: 0;

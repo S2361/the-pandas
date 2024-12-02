@@ -19,6 +19,7 @@ const HomePage: React.FC = () => {
       <Header />
       <div className="home-container">
   <h2>Our Team</h2>
+  <p>Click for more about us!</p>
   <ul className="team-list">
     {teamMembers.map((member, index) => (
       <li key={index} className="team-item">
