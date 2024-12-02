@@ -1,11 +1,53 @@
 /* import lexend font */
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
+.about-me-container {
+    background-color: #D8DFFD; /* Match the design's background color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AEBAFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-title {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px; 
+    color: #1d1d1d;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #name-title {
     display: flex;
     align-content: center;
     font-family: 'Lexend', sans-serif;
-    font-size: 80px;
+    font-size: 50px; 
     color: #1D1D1D;
 }
 
@@ -13,6 +55,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
 }
 
 #about-me-information {
@@ -25,21 +69,53 @@
 
 .subtitles {
     font-family: 'Lexend', sans-serif;
-    font-size: 50px;
+    font-size: 40px; 
 }
 
 .text {
     font-family: 'Lexend', sans-serif;
-    font-size: 40px;
+    font-size: 30px; 
 }
 
 #linkedin-logo {
-    width: 140px;
-    height: 137px;
+    width: 100px; 
+    height: 100px;
 }
 
 #profile-picture {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    border-radius: 50%; 
+    width: 350px; 
+    height: 350px;
+    object-fit: cover; 
 }
+
+/* Rounded rectangle for sections */
+.section-box {
+    width: 633px; /* Matches the width of the design */
+    height: 140px; /* Matches the height of the design */
+    background-color: #95A5FF; /* Matches the background color in the design */
+    border-radius: 50px; /* Makes the corners circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adds spacing between boxes */
+}
+
+/* Text inside the rounded rectangle */
+.section-text {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px; /* Adjust text size */
+    line-height: 1.5;
+    text-align: center;
+    color: #000000; /* Matches the color in the design */
+    padding: 0 20px; /* Adds padding for better spacing inside the box */
+}
+/* Section titles */
+.subtitles {
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px; /* Adjusted text size */
+    text-align: center; /* Center align the text */
+    color: #000000; /* Match the design color */
+    margin-bottom: 10px; /* Adds spacing between the title and the rectangle */
+}
+
