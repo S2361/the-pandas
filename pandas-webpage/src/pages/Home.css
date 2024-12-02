@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&family=Lexend+Exa:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Exa&display=swap');
+/* Import the Lexend font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+body {
+    background-color: #e7e9fc;
+}
+
+.home-container {
+    font-family: 'Lexend Deca';
+    text-align: center;
+    background-color: #e7e9fc;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+h2 {
+    font-family: 'Lexend';
+    font-size: 50px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Lexend Exa';
+}
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-item {
+    display: flex; /* Align picture and text horizontally */
+    align-items: center; /* Center them vertically */
+    margin-bottom: 30px;
+}
+
+.team-photo {
+    width: 80px; /* Size of the circular photo */
+    height: 80px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Ensures proper cropping */
+    margin-right: 15px; /* Space between photo and name */
+}
+
+.team-item a {
+    display: flex; /* Keep layout as a flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space out the picture and text */
+    width: 100%; /* Full width of the container */
+    padding: 20px 30px; /* Padding inside the box */
+    background-color: #AEBAFF; /* Box background color */
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Lexend', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 25px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.team-item a:hover {
+    background-color: #5a5bd8; /* Darker hover background */
+    color: white; /* Hover text color */
+}
+
+.team-name {
+    margin-left: auto; /* Push name to the far right */
+    text-align: right; /* Align name to the right */
+}

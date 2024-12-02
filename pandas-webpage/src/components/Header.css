@@ -1,0 +1,53 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&family=Lexend+Exa:wght@400;500;600&display=swap');
+
+/* Header container styles */
+img {
+    height: 85px; /* Set the height of the logo image */
+    margin-right: 10px; /* Spacing between logo and Home link */
+  }
+.header-container {
+    font-family: 'Lexend Exa', sans-serif;
+    display: flex;
+    justify-content: space-between; /* Push items to the left and right */
+    align-items: center; /* Align items vertically */
+    padding: 5px 20px;
+    background-color: #AEBAFF; /* Adjust color as needed */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left side: Logo and Home link */
+  .header-left {
+    font-family: 'Lexend Exa', sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px; /* Spacing between logo and Home link */
+  }
+  
+  .home-link {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .home-link:hover {
+    color: #5a5bd8;
+  }
+  
+  /* Right side: App title */
+  .header-right {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    
+  }
+  h1 {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 40px;
+  }
