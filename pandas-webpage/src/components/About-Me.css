@@ -1,0 +1,45 @@
+/* import lexend font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+#name-title {
+    display: flex;
+    align-content: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 80px;
+    color: #1D1D1D;
+}
+
+.horizontal-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-me-information {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend', sans-serif;
+    justify-content: center;
+    padding: 1em;
+}
+
+.subtitles {
+    font-family: 'Lexend', sans-serif;
+    font-size: 50px;
+}
+
+.text {
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+}
+
+#linkedin-logo {
+    width: 140px;
+    height: 137px;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
