@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 .about-me-container {
-    background-color: #D8DFFD; /* Match the design's background color */
+    background-color: #D8DFFD; 
     padding: 20px;
     border-radius: 10px;
     max-width: 1200px;
@@ -89,33 +89,30 @@
     object-fit: cover; 
 }
 
-/* Rounded rectangle for sections */
 .section-box {
-    width: 633px; /* Matches the width of the design */
-    height: 140px; /* Matches the height of the design */
-    background-color: #95A5FF; /* Matches the background color in the design */
-    border-radius: 50px; /* Makes the corners circular */
+    width: 633px; 
+    height: 140px; 
+    background-color: #95A5FF; 
+    border-radius: 50px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px; /* Adds spacing between boxes */
+    margin-bottom: 20px; 
 }
 
-/* Text inside the rounded rectangle */
 .section-text {
     font-family: 'Lexend', sans-serif;
-    font-size: 30px; /* Adjust text size */
+    font-size: 30px; 
     line-height: 1.5;
     text-align: center;
-    color: #000000; /* Matches the color in the design */
-    padding: 0 20px; /* Adds padding for better spacing inside the box */
+    color: #000000; 
+    padding: 0 20px; 
 }
-/* Section titles */
 .subtitles {
     font-family: 'Lexend', sans-serif;
-    font-size: 40px; /* Adjusted text size */
-    text-align: center; /* Center align the text */
-    color: #000000; /* Match the design color */
-    margin-bottom: 10px; /* Adds spacing between the title and the rectangle */
+    font-size: 40px; 
+    text-align: center; 
+    color: #000000; 
+    margin-bottom: 10px; 
 }
 
