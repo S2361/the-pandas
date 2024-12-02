@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&family=Lexend+Exa:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Exa&display=swap');
+/* Import the Lexend font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body{
+    background-color: #e7e9fc;   
+}
+.home-container {
+    font-family: 'Lexend Deca';
+    text-align: center;
+    background-color: #e7e9fc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%; 
+  }
+  
+  .app-title {
+    font-family: "Lexend Deca";
+    font-size: 36px;
+    color: #5a5bd8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Lexend';
+    font-size: 50px;
+    color: #333;
+  }
+  p {
+    font-family: 'Lexend Exa';
+  }
+  .team-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .team-item {
+    margin: 10px 0;
+  }
+  
+  .team-link {
+    text-decoration: none;
+    color: #4a4aff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .team-link:hover {
+    color: #3b3bcf;
+  }
+  /* Style for the list container */
+.team-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .team-item {
+    margin-bottom: 30px; /* Add spacing between items */
+  }
+  
+  /* Style for the individual team member boxes */
+  .team-item a {
+    display: block; /* Make the link take up the full width of the container */
+    padding: 10px 30px;
+    background-color: #AEBAFF; /* Box background color */
+    color: #333; /* Text color */
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    border-radius: 20px; /* Rounded corners */
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Make the box stretch across the entire page */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    transition: background-color 0.3s ease; /* Smooth background transition on hover */
+    align-items: center;
+  }
+  
+  /* Hover effect for the boxes */
+  .team-item a:hover {
+    background-color: #5a5bd8; /* Darker shade for hover effect */
+    color: white; /* Change text color on hover */
+  }
+  
