@@ -25,7 +25,7 @@ function App() {
               hobbies="Soccer, Gym, Video Games, Cooking"
               linkedin="https://www.linkedin.com/in/amindu-abeydeera/"
               photo_src={aminduImage}
-              email="amindu@example.com"
+              email="aminduab7@gmail.com"
             />
           }
           />
@@ -38,7 +38,7 @@ function App() {
               hobbies="Playing the flute, baking, and playing video games"
               linkedin="https://www.linkedin.com/in/charu-mehta1/"
               photo_src={charuImage}
-              email="charu@example.com"
+              email="charu.a.mehta@gmail.com"
             />
           }
           />
@@ -51,7 +51,7 @@ function App() {
               hobbies="Dancing, coloring, and baking"
               linkedin="https://www.linkedin.com/in/kaavyaradhakrishnan/"
               photo_src={kaavyaImage}
-              email="kaavya@example.com"
+              email="kaavyakri@gmail.com"
             />
           }
           />
@@ -64,7 +64,7 @@ function App() {
               hobbies="Running, hiking, and reading"
               linkedin="https://www.linkedin.com/in/laurel-sun/"
               photo_src={laurelImage}
-              email="laurel@example.com"
+              email="laurel.sun.06@gmail.com"
             />
           }
           />
@@ -77,7 +77,7 @@ function App() {
               hobbies="Reading and playing video games"
               linkedin="https://www.linkedin.com/in/leia-spagnola/"
               photo_src={leiaImage}
-              email="leia@example.com"
+              email="leia@umd.edu"
             />
           }
           />
