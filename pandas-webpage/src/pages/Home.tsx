@@ -10,12 +10,12 @@ import suhani from "../images/profile-pictures/suhani.jpg";
 
 // Define team members in an array for easy iteration
 const teamMembers = [
-    { name: "Amindu Abeydeera", link: "/about/amindu", photo: amindu },
-    { name: "Charu Mehta", link: "/about/charu", photo: charu },
-    { name: "Kaavya Radhakrishnan", link: "/about/kaavya", photo: kaavya },
-    { name: "Laurel Sun", link: "/about/laurel", photo: laurel },
-    { name: "Leia Spagnola", link: "/about/leia", photo: leia },
-    { name: "Suhani Agrawal", link: "/about/suhani", photo: suhani }
+    { name: "Amindu Abeydeera", link: "/amindu", photo: amindu },
+    { name: "Charu Mehta", link: "/charu", photo: charu },
+    { name: "Kaavya Radhakrishnan", link: "/kaavya", photo: kaavya },
+    { name: "Laurel Sun", link: "/laurel", photo: laurel },
+    { name: "Leia Spagnola", link: "/leia", photo: leia },
+    { name: "Suhani Agrawal", link: "/suhani", photo: suhani }
 ];
 
 
