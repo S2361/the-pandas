@@ -45,7 +45,7 @@ function App() {
           <Route path="/kaavya" element={
             <AboutMePage
               name="Kaavya Radhakrishnan"
-              description="Hi, I'm Kaavya, a computer science student graduating in {2026}!"
+              description="Hi, I'm Kaavya, a computer science student graduating in 2026!"
               graduation={2026}
               major="Computer Science"
               hobbies="Dancing, coloring, and baking"
